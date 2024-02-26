@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "ES2022"],
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "target": "esnext",
+    "sourceMap": true,
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */
+
+    /* Completeness */
+    // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+    // "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["./node_modules", "**/*.spec.ts"]
+}
